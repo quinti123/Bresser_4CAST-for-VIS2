@@ -1,0 +1,620 @@
+{
+  "name": "wetter_bresser",
+  "settings": {
+    "style": {},
+    "bg-image": "_PRJ_NAME/img/Bresser_back arbeit.png",
+    "bg-height": "800",
+    "bg-color": "#555555"
+  },
+  "widgets": {
+    "w000096": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Aussentemperatur;floor}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": "182px",
+        "top": "147px",
+        "width": "135px",
+        "height": "92px",
+        "color": "#72be2a",
+        "font-family": "seg",
+        "font-size": "82px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000097": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{wert:0_userdata.0.Wetterstation.Aussentemperatur;(wert*10)-Math.floor(wert)*10}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 312,
+        "top": 191,
+        "width": "52px",
+        "height": "55px",
+        "color": "#72be2a",
+        "font-family": "seg",
+        "font-size": "40px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000098": {
+      "tpl": "tplValueFloat",
+      "data": {
+        "bindings": [],
+        "oid": "0_userdata.0.Wetterstation.Aussenfeuchtigkeit",
+        "is_comma": "true",
+        "g_extended": true,
+        "factor": "1",
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 190,
+        "top": 245,
+        "color": "#72be2a",
+        "font-size": "75px",
+        "width": "126px",
+        "height": "85px",
+        "font-family": "seg"
+      },
+      "widgetSet": "basic"
+    },
+    "w000100": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Wind;floor}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 397,
+        "top": 162,
+        "width": "108px",
+        "height": "68px",
+        "color": "#f0f0f0",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000101": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{wert:0_userdata.0.Wetterstation.Wind;(wert*10)-Math.floor(wert)*10}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 492,
+        "top": 163,
+        "width": "55px",
+        "height": "68px",
+        "color": "#f0f0f0",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000102": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Taupunkt}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": "215px",
+        "top": "380px",
+        "width": "124px",
+        "height": "68px",
+        "color": "#f0f0f0",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000103": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Innentemperatur;floor}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 655,
+        "top": 148,
+        "width": "135px",
+        "height": "92px",
+        "color": "#f4ab42",
+        "font-family": "seg",
+        "font-size": "82px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000104": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{wert:tuya.0.bf47044dd352dbdc43opys.3;floor;(wert*10)-Math.floor(wert)*10}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 789,
+        "top": 192,
+        "width": "52px",
+        "height": "55px",
+        "color": "#f4ab42",
+        "font-family": "seg",
+        "font-size": "40px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000105": {
+      "tpl": "tplValueFloat",
+      "data": {
+        "bindings": [],
+        "oid": "0_userdata.0.Wetterstation.Innenfeuchtigkeit",
+        "is_comma": "true",
+        "g_extended": true,
+        "factor": "1",
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 664,
+        "top": 243,
+        "color": "#f4ab42",
+        "font-size": "75px",
+        "width": "126px",
+        "height": "85px",
+        "font-family": "seg"
+      },
+      "widgetSet": "basic"
+    },
+    "w000106": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Druck_relativ;round(1)}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 588,
+        "top": 380,
+        "width": "223px",
+        "height": "68px",
+        "color": "#fff77b",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000107": {
+      "tpl": "tplValueStringRaw",
+      "data": {
+        "bindings": [],
+        "oid": "0_userdata.0.Wetterstation.Windrichtung_Text",
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 422,
+        "top": 294,
+        "color": "#f0f0f0",
+        "font-family": "seg14",
+        "font-size": "50px",
+        "width": "118px",
+        "height": "57px",
+        "text-align": "center"
+      },
+      "widgetSet": "basic"
+    },
+    "w000108": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Windrichtung}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 450,
+        "top": 358,
+        "width": "53px",
+        "height": "22px",
+        "color": "#f0f0f0",
+        "font-family": "seg",
+        "font-size": "20px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000110": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.UV_Index}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 102,
+        "top": 473,
+        "width": "124px",
+        "height": "68px",
+        "color": "#ef9692",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000111": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Sonnenstrahlung_in_klux;round(0)}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 241,
+        "top": 473,
+        "width": "124px",
+        "height": "68px",
+        "color": "#fdfdd9",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000112": {
+      "tpl": "tplHtml",
+      "data": {
+        "bindings": [],
+        "html": "{0_userdata.0.Wetterstation.Regen_Tag;round(1)}",
+        "refreshInterval": null,
+        "g_common": true,
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 585,
+        "top": 471,
+        "width": "223px",
+        "height": "68px",
+        "color": "#026fb0",
+        "font-family": "seg",
+        "font-size": "50px",
+        "text-align": "right"
+      },
+      "widgetSet": "basic"
+    },
+    "w000113": {
+      "tpl": "tplValueTimestamp",
+      "data": {
+        "bindings": [],
+        "oid": "0_userdata.0.Wetterstation.Zeitstempel",
+        "format_date": "hh:mm",
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 145,
+        "top": 545,
+        "color": "#f0f0f0",
+        "width": "189px",
+        "height": "68px",
+        "font-family": "seg",
+        "font-size": "50px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000117": {
+      "tpl": "tplValueStringRaw",
+      "data": {
+        "bindings": [],
+        "oid": "new Date(val).toLocaleString('de-de', {weekday: 'long'}) "
+      },
+      "style": {
+        "bindings": [],
+        "left": "909.7333374023438px",
+        "top": "591.2666625976562px"
+      },
+      "widgetSet": "basic"
+    },
+    "w000116": {
+      "tpl": "tplTwSimpleDate",
+      "data": {
+        "bindings": [],
+        "prependZero": false,
+        "g_common": true,
+        "shortWeekDay": true,
+        "g_css_font_text": true,
+        "showWeekDay": true,
+        "shortMonth": true,
+        "monthWord": true,
+        "noClass": false,
+        "shortYear": true
+      },
+      "style": {
+        "bindings": [],
+        "left": "133px",
+        "top": "614px",
+        "color": "#f0f0f0",
+        "font-family": "seg14",
+        "width": "233px",
+        "height": "33px",
+        "position": "absolute",
+        "newLine": true
+      },
+      "widgetSet": "timeandweather"
+    },
+    "w000118": {
+      "tpl": "tplValueStringRaw",
+      "data": {
+        "bindings": [],
+        "oid": "nothing_selected",
+        "html_prepend": "°",
+        "g_css_font_text": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 509,
+        "top": 351,
+        "width": "23px",
+        "height": "22px",
+        "color": "#f0f0f0"
+      },
+      "widgetSet": "basic"
+    },
+    "w000119": {
+      "tpl": "tplVis-materialdesign-Chart-Line-History",
+      "data": {
+        "bindings": [],
+        "dataCount": "0",
+        "g_common": true,
+        "timeIntervalToShow": "1 day",
+        "refreshMethod": "timeInterval",
+        "refreshTimeInterval": "10 minutes",
+        "chartTimeout": "5",
+        "backgroundColor": "#000000",
+        "g_chartLayout": true,
+        "chartAreaBackgroundColor": "#000000",
+        "globalColor": "#ffffff",
+        "g_lineLayout": true,
+        "pointStyle": "dash",
+        "showLegend": true,
+        "g_legendLayout": true,
+        "legendPosition": "right",
+        "legendFontColor": "#ffffff",
+        "legendFontFamily": "Verdana, Geneva, sans-serif",
+        "legendFontSize": 12,
+        "legendPointStyle": "true",
+        "xAxisPosition": "bottom",
+        "g_xAxisLayout": true,
+        "xAxisTicksSource": "auto",
+        "xAxisBounds": "dataSet",
+        "xAxisTimeFormats": "\"minute\":\"H:mm\",\"hour\":\"H\",\"day\":\"ddd DD.\",\"week\":\"ll\",\"month\":\"MMM YYYY\",\"quarter\":\"[Q]Q - YYYY\",\"year\":\"YYYY\"}",
+        "xAxisTitleColor": "#ffffff",
+        "xAxisTitleFontFamily": "Verdana, Geneva, sans-serif",
+        "xAxisTitleFontSize": "15",
+        "xAxisValueLabelColor": "#fffff",
+        "xAxisValueFontFamily": "Arial, Helvetica, sans-serif",
+        "xAxisValueFontSize": 8,
+        "xAxisDistanceBetweenTicks": 96,
+        "xAxisValueDistanceToAxis": "0",
+        "xAxisShowAxis": "true",
+        "xAxisShowAxisLabels": "true",
+        "xAxisShowGridLines": true,
+        "xAxisGridLinesColor": "#ffffff",
+        "xAxisShowTicks": true,
+        "xAxisZeroLineColor": "#ffffff",
+        "xAxisMinRotation": "0",
+        "xAxisMaxRotation": "0",
+        "yAxisTitleColor": "#ffffff",
+        "g_yAxisLayout": true,
+        "yAxisTitleFontFamily": "Arial, Helvetica, sans-serif",
+        "yAxisTitleFontSize": "8",
+        "yAxisValueLabelColor": "#ffffff",
+        "yAxisValueFontFamily": "Arial, Helvetica, sans-serif",
+        "yAxisValueFontSize": "8",
+        "yAxisValueDistanceToAxis": 0,
+        "historyAdapterInstance": "sql.0",
+        "oid1": "0_userdata.0.Wetterstation.Druck_relativ",
+        "aggregate1": "minmax",
+        "maxDataPoints1": 8,
+        "minTimeInterval1": 3600,
+        "multiply1": null,
+        "g_oids-1": true,
+        "showYAxis1": true,
+        "yAxisPosition1": "left",
+        "yAxisTitle1": "mbar",
+        "yAxisValueColor1": "#ffffff",
+        "yAxisMinValue1": null,
+        "yAxisMaxValue1": null,
+        "yAxisStep1": "",
+        "yAxisValueMinDigits1": null,
+        "yAxisValueMaxDigits1": 0,
+        "yAxisMaxLabel1": null,
+        "yAxisValueAppendText1": null,
+        "yAxisShowGridLines1": "true",
+        "yAxisShowTicks1": "true",
+        "yAxisShowAxisBorder1": "true",
+        "yAxisGridLinesColor1": "#ff0000",
+        "yAxisGridLinesWitdh1": null,
+        "yAxisTickLength1": null,
+        "yAxisZeroLineWidth1": "0",
+        "yAxisZeroLineColor1": "#ff0000",
+        "g_yAxisLayoutForData-1": true,
+        "lineSpanGaps1": "true",
+        "steppedLine1": true,
+        "lineTension1": 0,
+        "lineThikness1": null,
+        "dataColor1": "#ffffff",
+        "useFillColor1": false,
+        "fillColor1": "#ff0000",
+        "pointColor1": "#ffffff",
+        "pointHoverColor1": null,
+        "legendText1": "Druck",
+        "g_layoutForData-1": true,
+        "disableHoverEffects": true,
+        "xAxisGridLinesWitdh": "",
+        "axisValueAppendText": "",
+        "showValues1": "showValuesOff",
+        "valuesSteps1": 1,
+        "valuesMinDecimals1": 1,
+        "valuesMaxDecimals1": 1,
+        "valuesAppendText1": null,
+        "valuesFontColor1": "#00ffff",
+        "valuesFontFamily1": "Verdana, Geneva, sans-serif",
+        "valuesFontSize1": "#mdwTheme:vis-materialdesign.0.fontSizes.charts.value",
+        "valuesPositionAnchor1": "center",
+        "valuesPositionAlign1": "center",
+        "valuesPositionOffset1": "",
+        "valuesTextAlign1": "center",
+        "valuesRotation1": 0,
+        "g_lineValuesLayout-1": true,
+        "cardUse": false,
+        "title": "Drucktitel",
+        "titleLayout": "",
+        "borderDistance": null,
+        "titleFontFamily": "Verdana, Geneva, sans-serif",
+        "colorBackground": "#22222",
+        "colorTitleSectionBackground": "#555555",
+        "colorTextSectionBackground": "#444444",
+        "colorTitle": "#ffffff",
+        "g_listItemCardBackground": true,
+        "legendBoxWidth": 11,
+        "showTooltip": false,
+        "tooltipMode": "nearest",
+        "tooltipPosition": "nearest",
+        "tooltipTimeFormats": "{\"millisecond\":\"lll:ss\",\"second\":\"lll:ss\",\"minute\":\"lll\",\"hour\":\"lll\",\"day\":\"lll\",\"week\":\"lll\",\"month\":\"lll\",\"quarter\":\"lll\",\"year\":\"lll\"}",
+        "tooltipLabelUseTodayYesterday": null,
+        "tooltipBackgroundColor": "#33aa77",
+        "tooltipArrowSize": null,
+        "tooltipDistanceToBar": null,
+        "tooltipBoxRadius": "-5",
+        "tooltipShowColorBox": "true",
+        "tooltipXpadding": null,
+        "tooltipYpadding": null,
+        "tooltipTitleFontColor": "#aaaaaa",
+        "tooltipTitleFontFamily": "Verdana, Geneva, sans-serif",
+        "tooltipTitleFontSize": "12",
+        "tooltipTitleMarginBottom": "-1",
+        "tooltipBodyFontColor": "#ffffff",
+        "tooltipBodyFontFamily": "Verdana, Geneva, sans-serif",
+        "tooltipBodyFontSize": "12",
+        "tooltipBodyAppend": null,
+        "tooltipValueMinDecimals": null,
+        "tooltipValueMaxDecimals": "-1",
+        "g_tooltipLayout": true,
+        "xAxisMaxLabel": "24",
+        "xAxisLabelUseTodayYesterday": false,
+        "xAxisTitle": "",
+        "xAxisOffsetGridLines": false,
+        "visibility-cond": "==",
+        "visibility-val": 1,
+        "visibility-groups-action": "hide",
+        "aggregate0": "minmax",
+        "lineSpanGaps0": true,
+        "showYAxis0": true,
+        "yAxisPosition0": "left",
+        "yAxisShowGridLines0": "true",
+        "yAxisShowTicks0": "true",
+        "yAxisShowAxisBorder0": "true",
+        "yAxisGridLinesColor0": "#ffffff",
+        "yAxisZeroLineColor0": "",
+        "showValues0": "showValuesOff",
+        "valuesFontColor0": "#ffffff",
+        "valuesFontFamily0": "Arial, Helvetica, sans-serif",
+        "valuesFontSize0": "6",
+        "valuesPositionAnchor0": "end",
+        "valuesPositionAlign0": "bottom",
+        "valuesTextAlign0": "center",
+        "signals-cond-1": "==",
+        "signals-val-1": true,
+        "signals-icon-1": "/vis/signals/lowbattery.png",
+        "signals-icon-size-1": 0,
+        "signals-blink-1": false,
+        "signals-horz-1": 0,
+        "signals-vert-1": 0,
+        "signals-hide-edit-1": false,
+        "signals-cond-2": "==",
+        "signals-val-2": true,
+        "signals-icon-2": "/vis/signals/lowbattery.png",
+        "signals-icon-size-2": 0,
+        "signals-blink-2": false,
+        "signals-horz-2": 0,
+        "signals-vert-2": 0,
+        "signals-hide-edit-2": false,
+        "yAxisStep0": "1",
+        "yAxisValueMaxDigits0": "0",
+        "yAxisMaxLabel0": "",
+        "oid0": "0_userdata.0.Wetterstation.Druck_relativ",
+        "minTimeInterval0": "",
+        "maxDataPoints0": "100",
+        "g_commonYAxis": false,
+        "steppedLine0": true,
+        "legendText0": "",
+        "yAxisTitle0": "mbar",
+        "valuesSteps0": "1",
+        "valuesMaxDecimals0": "0",
+        "multiply0": "",
+        "legendDistanceToChart": "0",
+        "pointSize": 1
+      },
+      "style": {
+        "bindings": [],
+        "left": "392px",
+        "top": "537px",
+        "width": "455px",
+        "height": "122px",
+        "z-index": 1
+      },
+      "widgetSet": "materialdesign"
+    }
+  },
+  "activeWidgets": []
+}
