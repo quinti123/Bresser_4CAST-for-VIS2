@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'seg';
+  src: url('/vis-2.0/##projektname##/fonts/7segment.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'seg14';
+  src: url('/vis-2.0/##projektname##/fonts/14segment.ttf') format('truetype');
+}
