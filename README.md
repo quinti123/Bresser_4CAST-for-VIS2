@@ -1,8 +1,8 @@
 # Bresser_4CAST-for-VIS2
 
-![installed](https://img.shields.io/badge/installed-stable-brightgreen)
-![version](https://img.shields.io/badge/version-0.1-blue)
-![license](https://img.shields.io/badge/license-MIT-yellow)
+![status](https://img.shields.io/badge/status-alpha-orange)
+![version](https://img.shields.io/badge/version-0.1.0-orange)
+![license](https://img.shields.io/badge/license-Public%20Domain-lightgrey)
 
 
 ![Station](Bresser_readme1.png)
