@@ -1,7 +1,7 @@
 # Bresser_4CAST-for-VIS2
 
 ![status](https://img.shields.io/badge/status-alpha-orange)
-![version](https://img.shields.io/badge/version-0.1.0-orange)
+![version](https://img.shields.io/badge/version-0.1-orange)
 ![license](https://img.shields.io/badge/license-Public%20Domain-lightgrey)
 
 
