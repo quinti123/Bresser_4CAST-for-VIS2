@@ -11,22 +11,13 @@ Dieses VIS2 view für iobroker simuliert eine Bresser 4Cast MD Wetterstation (Ar
 Sie blendet Daten aus dem iobroker über eine Grafikdatei der Wetterstation Bresser_4CAST ein.
 Die Daten werden aus dem Objekttree des Projektes WLAN Wetterstation übernommen.
 
+## Systemvoraussetzungen
 Benötigt werden folgende Adapter:
   - Vis2 (sollte aber auch noch mit Vis1 funktionieren)
   - materialdesign Widgets
   - timeandweather Widgets
   
-  ### Filter objects
-The adapter updates as much information from your UniFi controller as possible, but offers the possibility to limit the updated information.
 
-It is possible to disable the update of selected information or filter specific objects of that information.
 
-| Information | Objects filterable by                   |
-|-------------|-----------------------------------------|
-| Clients     | Name, Hostname, IP address, MAC address |
-| Devices     | Name, IP address, MAC address           |
-| WiFis       | Name                                    |
-| Networks    | Name                                    |
-| Health      | Subsystem                               |
   
   
