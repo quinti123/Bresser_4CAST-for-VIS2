@@ -1,0 +1,3 @@
+17.08.2025 Batteriestatus in/out img eingebaut --> hintergrund muss bei linke batterie geleert werden
+----------
+17.08.2025 alpha 0.1 release
