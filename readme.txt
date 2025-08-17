@@ -4,6 +4,7 @@ es werden folgende iobroker Adapter benötigt:
 - VIS2
 - Material Design Widgets for IoBroker VIS
 - timeandweather - Time and weather widgets
+- der Objekttree 0_userdata.0.Wetterstation.Info
 
 - entpacke die Zip-Datei in einen temporären Ordner
 - Falls noch kein VIS2 Projekt besteht, ein neues Projekt anlegen.
