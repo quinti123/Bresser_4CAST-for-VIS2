@@ -10,7 +10,7 @@
 Dieses VIS2 view für iobroker simuliert eine 
 [Bresser 4Cast MD] (https://www.bresser.de/p/bresser-wlan-4cast-md-funk-wetterstation-7-in-1-7003800) 
 Wetterstation (Art.Nr. 7003800).
-, [Windy](https://www.windy.com),
+, [Bresser 4Cast MD](https://www.bresser.de/p/bresser-wlan-4cast-md-funk-wetterstation-7-in-1-7003800),
 
 Sie blendet Daten aus dem iobroker über eine Abbildung der Wetterstation ein.
 Die Daten werden aus dem Objekttree des Projektes WLAN Wetterstation übernommen.
