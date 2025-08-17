@@ -10,16 +10,20 @@
 Dieses VIS2 view für iobroker simuliert eine 
 [Bresser 4Cast MD](https://www.bresser.de/p/bresser-wlan-4cast-md-funk-wetterstation-7-in-1-7003800) 
 Wetterstation (Art.Nr. 7003800).
-, [Bresser 4Cast MD](https://www.bresser.de/p/bresser-wlan-4cast-md-funk-wetterstation-7-in-1-7003800),
 
 Sie blendet Daten aus dem iobroker über eine Abbildung der Wetterstation ein.
-Die Daten werden aus dem Objekttree des Projektes WLAN Wetterstation übernommen.
+Die Daten werden aus dem Objekttree des Projektes [WLAN-Wetterstation von SBorg2014](https://github.com/SBorg2014/WLAN-Wetterstation) übernommen.
+Angezeigt werden der Standardmässig Daten des 7in1 Aussensensor sowie 1 zusätzlicher Temp/Hydro Innensensor.
+
 
 ## Systemvoraussetzungen
 Benötigt werden folgende Adapter:
   - Vis2 (sollte aber auch noch mit Vis1 funktionieren)
   - materialdesign Widgets
   - timeandweather Widgets
+  
+## Todo
+geplant ist für die Zukunft eine Nutzung der Tasten um die verschiedenen Funktionen der Wetterstation zu simulieren.
   
 
 
