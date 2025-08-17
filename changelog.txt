@@ -1,3 +1,9 @@
 17.08.2025 Batteriestatus in/out img eingebaut --> hintergrund muss bei linke batterie geleert werden
+           Rain button erstellt, über Taste "GRAPH", opacity 0, widget light-bulb 237
+             objekte erstellt
+		0_userdata.0.Vis_wetter_bresser.rain-buttoncount
+		0_userdata.0.Vis_wetter_bresser.rain-buttonhit
+	     script rainbutton-Zähler erstellt 
+		
 ----------
-17.08.2025 alpha 0.1 release
+--> 17.08.2025 alpha 0.1 release
