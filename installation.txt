@@ -1,11 +1,16 @@
 Installation:
 
-es werden folgende iobroker Adapter benötigt:
+es werden folgende iobroker Adapter/Objekte benötigt:
 - VIS2
 - Material Design Widgets for IoBroker VIS
 - timeandweather - Time and weather widgets
+- ein Datenbankadapter (eingestellt ist influxdb)
 - der Objekttree 0_userdata.0.Wetterstation.Info
+- Speicherung der Daten folgender Datenpunkte (für Kurvenanzeige)
+  0_userdata.0.Wetterstation.Druck_relativ
 
+
+Installation:
 - entpacke die Zip-Datei in einen temporären Ordner
 - Falls noch kein VIS2 Projekt besteht, ein neues Projekt anlegen.
 - mit dem VIS2 Dateimanager:
@@ -25,6 +30,4 @@ es werden folgende iobroker Adapter benötigt:
 - klicke im rechten Bereich des Vis2 Editors unter "Attribute" auf "CSS"
 - wähle darunter "Für dieses Projekt",
 - füge Inhalt der Zwischenablage ein
-- öffne im rechten Bereich des Vis2 Editors unter "Attribute" im Tab "Seite" CSS-Hintergrund (background-...)
-- klicke bei "Bild" rechts auf die 3 Punkte
-- wähle die Datei "Bresser_back arbeit.png" im Unterordner img aus
+
