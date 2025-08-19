@@ -1,13 +1,35 @@
 {
-  "name": "wetter_bresser",
+  "name": "test",
+  "parentId": null,
   "settings": {
     "style": {},
-    "bg-image": "_PRJ_NAME/img/Bresser_back arbeit.png",
-    "bg-height": "800",
-    "bg-color": "#555555"
+    "bg-image": "_PRJ_NAME/img/Bresser_back arbeit.png"
   },
   "widgets": {
-    "w000096": {
+    "w000082": {
+      "tpl": "tplTwSimpleDate",
+      "data": {
+        "bindings": [],
+        "prependZero": "true",
+        "g_common": true,
+        "g_css_font_text": true,
+        "showWeekDay": true,
+        "shortWeekDay": true,
+        "shortYear": true,
+        "shortMonth": true
+      },
+      "style": {
+        "bindings": [],
+        "left": 141,
+        "top": 602,
+        "color": "#f0f0f0",
+        "font-family": "seg14",
+        "width": "200",
+        "height": "30"
+      },
+      "widgetSet": "timeandweather"
+    },
+    "w000083": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -28,7 +50,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000097": {
+    "w000084": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -49,7 +71,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000098": {
+    "w000085": {
       "tpl": "tplValueFloat",
       "data": {
         "bindings": [],
@@ -71,7 +93,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000100": {
+    "w000086": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -93,7 +115,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000101": {
+    "w000087": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -115,7 +137,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000102": {
+    "w000088": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -137,7 +159,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000103": {
+    "w000089": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -158,7 +180,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000104": {
+    "w000090": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -179,7 +201,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000105": {
+    "w000091": {
       "tpl": "tplValueFloat",
       "data": {
         "bindings": [],
@@ -201,7 +223,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000106": {
+    "w000092": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -223,7 +245,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000107": {
+    "w000093": {
       "tpl": "tplValueStringRaw",
       "data": {
         "bindings": [],
@@ -243,7 +265,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000108": {
+    "w000094": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -265,7 +287,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000110": {
+    "w000095": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -287,7 +309,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000111": {
+    "w000096": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -309,7 +331,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000112": {
+    "w000097": {
       "tpl": "tplHtml",
       "data": {
         "bindings": [],
@@ -331,7 +353,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000113": {
+    "w000098": {
       "tpl": "tplValueTimestamp",
       "data": {
         "bindings": [],
@@ -351,47 +373,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000117": {
-      "tpl": "tplValueStringRaw",
-      "data": {
-        "bindings": [],
-        "oid": "new Date(val).toLocaleString('de-de', {weekday: 'long'}) "
-      },
-      "style": {
-        "bindings": [],
-        "left": "909.7333374023438px",
-        "top": "591.2666625976562px"
-      },
-      "widgetSet": "basic"
-    },
-    "w000116": {
-      "tpl": "tplTwSimpleDate",
-      "data": {
-        "bindings": [],
-        "prependZero": false,
-        "g_common": true,
-        "shortWeekDay": true,
-        "g_css_font_text": true,
-        "showWeekDay": true,
-        "shortMonth": true,
-        "monthWord": true,
-        "noClass": false,
-        "shortYear": true
-      },
-      "style": {
-        "bindings": [],
-        "left": "133px",
-        "top": "614px",
-        "color": "#f0f0f0",
-        "font-family": "seg14",
-        "width": "233px",
-        "height": "33px",
-        "position": "absolute",
-        "newLine": true
-      },
-      "widgetSet": "timeandweather"
-    },
-    "w000118": {
+    "w000099": {
       "tpl": "tplValueStringRaw",
       "data": {
         "bindings": [],
@@ -409,7 +391,7 @@
       },
       "widgetSet": "basic"
     },
-    "w000119": {
+    "w000100": {
       "tpl": "tplVis-materialdesign-Chart-Line-History",
       "data": {
         "bindings": [],
@@ -422,46 +404,39 @@
         "backgroundColor": "#000000",
         "g_chartLayout": true,
         "chartAreaBackgroundColor": "#000000",
-        "globalColor": "#ffffff",
+        "globalColor": "#fff77b",
         "g_lineLayout": true,
         "pointStyle": "dash",
-        "showLegend": true,
-        "g_legendLayout": true,
-        "legendPosition": "right",
-        "legendFontColor": "#ffffff",
-        "legendFontFamily": "Verdana, Geneva, sans-serif",
-        "legendFontSize": 12,
-        "legendPointStyle": "true",
         "xAxisPosition": "bottom",
         "g_xAxisLayout": true,
         "xAxisTicksSource": "auto",
         "xAxisBounds": "dataSet",
         "xAxisTimeFormats": "\"minute\":\"H:mm\",\"hour\":\"H\",\"day\":\"ddd DD.\",\"week\":\"ll\",\"month\":\"MMM YYYY\",\"quarter\":\"[Q]Q - YYYY\",\"year\":\"YYYY\"}",
-        "xAxisTitleColor": "#ffffff",
-        "xAxisTitleFontFamily": "Verdana, Geneva, sans-serif",
-        "xAxisTitleFontSize": "15",
+        "xAxisTitleColor": "#fff77b",
+        "xAxisTitleFontFamily": "Arial, Helvetica, sans-serif",
+        "xAxisTitleFontSize": "8",
         "xAxisValueLabelColor": "#fffff",
         "xAxisValueFontFamily": "Arial, Helvetica, sans-serif",
         "xAxisValueFontSize": 8,
         "xAxisDistanceBetweenTicks": 96,
         "xAxisValueDistanceToAxis": "0",
         "xAxisShowAxis": "true",
-        "xAxisShowAxisLabels": "true",
+        "xAxisShowAxisLabels": true,
         "xAxisShowGridLines": true,
-        "xAxisGridLinesColor": "#ffffff",
+        "xAxisGridLinesColor": "#fff77b",
         "xAxisShowTicks": true,
-        "xAxisZeroLineColor": "#ffffff",
+        "xAxisZeroLineColor": "#fff77b",
         "xAxisMinRotation": "0",
         "xAxisMaxRotation": "0",
-        "yAxisTitleColor": "#ffffff",
+        "yAxisTitleColor": "#fff77b",
         "g_yAxisLayout": true,
         "yAxisTitleFontFamily": "Arial, Helvetica, sans-serif",
         "yAxisTitleFontSize": "8",
-        "yAxisValueLabelColor": "#ffffff",
+        "yAxisValueLabelColor": "#fff77b",
         "yAxisValueFontFamily": "Arial, Helvetica, sans-serif",
         "yAxisValueFontSize": "8",
         "yAxisValueDistanceToAxis": 0,
-        "historyAdapterInstance": "sql.0",
+        "historyAdapterInstance": "influxdb.0",
         "oid1": "0_userdata.0.Wetterstation.Druck_relativ",
         "aggregate1": "minmax",
         "maxDataPoints1": 8,
@@ -516,40 +491,6 @@
         "valuesTextAlign1": "center",
         "valuesRotation1": 0,
         "g_lineValuesLayout-1": true,
-        "cardUse": false,
-        "title": "Drucktitel",
-        "titleLayout": "",
-        "borderDistance": null,
-        "titleFontFamily": "Verdana, Geneva, sans-serif",
-        "colorBackground": "#22222",
-        "colorTitleSectionBackground": "#555555",
-        "colorTextSectionBackground": "#444444",
-        "colorTitle": "#ffffff",
-        "g_listItemCardBackground": true,
-        "legendBoxWidth": 11,
-        "showTooltip": false,
-        "tooltipMode": "nearest",
-        "tooltipPosition": "nearest",
-        "tooltipTimeFormats": "{\"millisecond\":\"lll:ss\",\"second\":\"lll:ss\",\"minute\":\"lll\",\"hour\":\"lll\",\"day\":\"lll\",\"week\":\"lll\",\"month\":\"lll\",\"quarter\":\"lll\",\"year\":\"lll\"}",
-        "tooltipLabelUseTodayYesterday": null,
-        "tooltipBackgroundColor": "#33aa77",
-        "tooltipArrowSize": null,
-        "tooltipDistanceToBar": null,
-        "tooltipBoxRadius": "-5",
-        "tooltipShowColorBox": "true",
-        "tooltipXpadding": null,
-        "tooltipYpadding": null,
-        "tooltipTitleFontColor": "#aaaaaa",
-        "tooltipTitleFontFamily": "Verdana, Geneva, sans-serif",
-        "tooltipTitleFontSize": "12",
-        "tooltipTitleMarginBottom": "-1",
-        "tooltipBodyFontColor": "#ffffff",
-        "tooltipBodyFontFamily": "Verdana, Geneva, sans-serif",
-        "tooltipBodyFontSize": "12",
-        "tooltipBodyAppend": null,
-        "tooltipValueMinDecimals": null,
-        "tooltipValueMaxDecimals": "-1",
-        "g_tooltipLayout": true,
         "xAxisMaxLabel": "24",
         "xAxisLabelUseTodayYesterday": false,
         "xAxisTitle": "",
@@ -602,18 +543,63 @@
         "valuesSteps0": "1",
         "valuesMaxDecimals0": "0",
         "multiply0": "",
-        "legendDistanceToChart": "0",
         "pointSize": 1
       },
       "style": {
         "bindings": [],
-        "left": "392px",
-        "top": "537px",
+        "left": "390",
+        "top": "535",
         "width": "455px",
-        "height": "122px",
-        "z-index": 1
+        "height": "120",
+        "z-index": 10
       },
       "widgetSet": "materialdesign"
+    },
+    "w000101": {
+      "tpl": "tplStatefulImage8",
+      "data": {
+        "bindings": [],
+        "count": 1,
+        "g_common": true,
+        "oid": "0_userdata.0.Wetterstation.Info.Station_Batteriestatus",
+        "refreshInterval": 0,
+        "src_0": "_PRJ_NAME/img/battery_full.png",
+        "g_images-0": true,
+        "src_1": "_PRJ_NAME/img/battery_low.png",
+        "g_images-1": true
+      },
+      "style": {
+        "bindings": [],
+        "left": "135",
+        "top": "150",
+        "width": "15",
+        "height": "30",
+        "z-index": "5"
+      },
+      "widgetSet": "basic"
+    },
+    "w000102": {
+      "tpl": "tplStatefulImage8",
+      "data": {
+        "bindings": [],
+        "count": 1,
+        "g_common": true,
+        "oid": "0_userdata.0.Wetterstation.WH31.1.Batterie",
+        "refreshInterval": 0,
+        "src_0": "_PRJ_NAME/img/battery_full.png",
+        "g_images-0": true,
+        "src_1": "_PRJ_NAME/img/battery_low.png",
+        "g_images-1": true
+      },
+      "style": {
+        "bindings": [],
+        "left": "600",
+        "top": "150",
+        "width": "15",
+        "height": "30",
+        "z-index": "5"
+      },
+      "widgetSet": "basic"
     }
   },
   "activeWidgets": []
