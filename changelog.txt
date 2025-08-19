@@ -6,5 +6,7 @@
 	     script rainbutton-Zähler erstellt 
 		
 ----------
---> 18.08.2025 alpha 0.2 
+--> 20.08.2025 alpha 0.2
+		- Batteriestatus in/out img eingebaut
+		- Farbe Graph Druck angepasst
 --> 17.08.2025 alpha 0.1 release
