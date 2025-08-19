@@ -21,7 +21,18 @@ Benötigt werden folgende Adapter:
   - Vis2 (sollte aber auch noch mit Vis1 funktionieren)
   - materialdesign Widgets
   - timeandweather Widgets
+  - infuxdb,sql oder history
   
+## Changelog
+
+### 0.2 alpha (2025-08-19)
+	- Batteriestatus in/out img eingebaut
+	- Farbe Graph Druck angepasst
+
+### 0.1 alpha (2025-08-17)
+	- initial release
+
+
 ## Todo
 geplant ist für die Zukunft eine Nutzung der Tasten um die verschiedenen Funktionen der Wetterstation zu simulieren.
   
